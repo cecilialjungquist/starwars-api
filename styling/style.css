@@ -97,10 +97,35 @@ main section h2 {
 
 .characters {
     position: relative;
+    min-height: 350px;
+}
+
+#characters-list {
+    width: 100%;
+    line-height: 1.6rem;
+}
+
+#characters-list li {
+    padding: 0 .5rem ;
+    font-size: 14px;
+}
+#characters-list li:hover,
+a:hover {
+    cursor: pointer;
+    font-weight: 600;
 }
 
 .characters nav {
     position: absolute;
     bottom: 0;
     padding: .2rem;
+    color: var(--font-color-dark);
+}
+.characters nav a {
+    color: var(--font-color-dark)
+}
+
+/* Making stuff disappear */
+.invisible {
+    display: none;
 }
