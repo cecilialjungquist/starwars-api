@@ -55,6 +55,11 @@ h2 {
     letter-spacing: .5rem;
 }
 
+h3 {
+    font-weight: normal;
+    padding: .5rem;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -69,7 +74,7 @@ main > section {
     width: 400px;
     background-color: var(--card-bg-color-light);
     margin-top: -3rem;
-    min-height: 200px;
+    min-height: 380px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,7 +110,27 @@ main section h2 {
     line-height: 1.6rem;
 }
 
-#characters-list li {
+#details-data {
+    color: var(--font-color-dark);
+    background-color: var(--list-item-light);
+    min-height: 162px;
+}
+
+#planet-data {
+    color: var(--font-color-light);
+    background-color: var(--card-bg-color-dark);
+    min-height: 162px;
+}
+
+#details-data,
+#planet-data {
+    width: 100%;
+    padding: .6rem 0;
+}
+
+#characters-list li,
+#details-data li,
+#planet-data li {
     padding: 0 .5rem ;
     font-size: 14px;
 }
@@ -124,6 +149,7 @@ a:hover {
 .characters nav a {
     color: var(--font-color-dark)
 }
+
 
 /* Making stuff disappear */
 .invisible {
