@@ -1,7 +1,3 @@
-// Fixa:
-// .: Laddningsikon på planet-delen
-// .: Kunna bläddra bakåt i katalogen
-
 const BASE_URL = 'https://swapi.dev/api/';
 const ADD_PEOPLE = '/people/?page='
 let pageCount = 1;
