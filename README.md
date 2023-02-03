@@ -1,5 +1,7 @@
 # StarWars API Practice
 
+https://cecilialjungquist.github.io/starwars-api/
+
 HTML, CSS & JS (hantera API är fokus) done by me.
 
 Figma design (provided from course):
