@@ -48,6 +48,10 @@ async function getData() {
         renderPerson(data);
     } catch (error) {
         console.log(error);
+        document.querySelector('.characters .loading').classList.add('invisible');
+        let errorMessage = document.createElement('li');
+        errorMessage.innerHTML = 'Young Padawan! Wrong, something went. Refresh page, one must.';
+        charactersEl.appendChild(errorMessage);
     }
 }
 
