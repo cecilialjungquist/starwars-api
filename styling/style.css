@@ -155,3 +155,12 @@ a:hover {
 .invisible {
     display: none;
 }
+
+@media screen and (max-width: 460px) {
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        width: fit-content;
+        padding: 5rem 0 0;
+    }
+}
